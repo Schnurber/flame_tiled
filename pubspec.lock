@@ -21,7 +21,7 @@ packages:
       name: archive
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.13"
+    version: "3.1.2"
   args:
     dependency: transitive
     description:
@@ -98,7 +98,7 @@ packages:
       name: crypto
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.5"
+    version: "3.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -241,7 +241,7 @@ packages:
       name: petitparser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.0"
+    version: "4.0.2"
   pool:
     dependency: transitive
     description:
@@ -362,10 +362,12 @@ packages:
   tiled:
     dependency: "direct main"
     description:
-      name: tiled
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.0"
+      path: "."
+      ref: nullsafety
+      resolved-ref: "04b8e38c8e1386ccf58781b13953c2268de79876"
+      url: "https://github.com/Schnurber/tiled.dart.git"
+    source: git
+    version: "0.7.0"
   typed_data:
     dependency: transitive
     description:
@@ -414,7 +416,7 @@ packages:
       name: xml
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.5.1"
+    version: "5.0.2"
   yaml:
     dependency: transitive
     description:

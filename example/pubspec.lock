@@ -91,9 +91,11 @@ packages:
   tiled:
     dependency: transitive
     description:
-      path: "../../tiled.dart"
-      relative: true
-    source: path
+      path: "."
+      ref: nullsafety
+      resolved-ref: "04b8e38c8e1386ccf58781b13953c2268de79876"
+      url: "https://github.com/Schnurber/tiled.dart.git"
+    source: git
     version: "0.7.0"
   typed_data:
     dependency: transitive
